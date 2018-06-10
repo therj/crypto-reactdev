@@ -1,10 +1,18 @@
 import React, { Component } from 'react'
 import logo from './logo.svg'
 import './App.css'
+import Crypto from './components/Crypto'
 
 class App extends Component {
   render() {
-    return <div className="App">Hello Crypto ReactDev!</div>
+    return (
+      <div className="App">
+        <div className="App-header">
+          <h2>Crypto ReactDev</h2>
+        </div>
+        <Crypto />
+      </div>
+    )
   }
 }
 
